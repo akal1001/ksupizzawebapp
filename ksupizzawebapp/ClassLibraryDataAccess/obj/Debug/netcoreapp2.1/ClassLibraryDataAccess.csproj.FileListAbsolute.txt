@@ -1,0 +1,9 @@
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\bin\Debug\netcoreapp2.1\ClassLibraryDataAccess.deps.json
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\bin\Debug\netcoreapp2.1\ClassLibraryDataAccess.dll
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\bin\Debug\netcoreapp2.1\ClassLibraryDataAccess.pdb
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.csprojAssemblyReference.cache
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.AssemblyInfoInputs.cache
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.AssemblyInfo.cs
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.dll
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ClassLibraryDataAccess\obj\Debug\netcoreapp2.1\ClassLibraryDataAccess.pdb
