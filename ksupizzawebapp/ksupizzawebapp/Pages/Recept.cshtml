@@ -9,27 +9,27 @@
 
     <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h3>
-            payment confemation
+            Transaction Complete
         </h3>
     </header>
 
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div style="border:1px solid lightgray;width:100%; height:450px; overflow-y:scroll">
+        <div style="border:1px solid lightgray;width:100%; height:450px; overflow-y:scroll; padding-top:0%">
             <table>
                 <thead>
                     <tr>
                         <td>
                             <h3>
                                 <b>
-                                    PoP pIzs Shor
+                                    Pizza Shop
                                 </b>
                             </h3>
                             <h5>
-                                Lenox sqare Rdoed Mall <br />
-                                8888 Peachtree steeat Ne
+
+                                8888 Peachtree steeat NE
                                 <br />
-                                Atlant, GA , 303333 <br />
-                                (444) 444 44444
+                                Atlanta, GA , 303333 <br />
+                                (555) 555 5555
                             </h5>
                         </td>
                     </tr>
@@ -45,7 +45,7 @@
                             </h4>
                         </td>
                         <td style="width:50%; text-align:left;">
-                            7:55 PM <br />1-21-2020
+                            7:55 PM
                         </td>
                     </tr>
                     <tr>
@@ -53,36 +53,66 @@
                         <td style="width:80%; text-align:left">
                             <h4>
                                 <b>
-                                    cheesse pizs
+                                    Ex -Large - Beff
                                 </b>
                             </h4>
                         </td>
                         <td style="width:20%">
                             <b>
-                                $.3333
+                                $.18.99
                             </b>
 
                         </td>
 
                     </tr>
                     <tr>
-                        <td style="text-align:left; padding-left:10px">eexter chess</td>
-                        <td>$.333</td>
+                        <td style="text-align:left; padding-left:10px">tomato</td>
+                        <td>$ 0.00</td>
+                    </tr>
+
+                    <tr>
+
+                        <td style="width:80%; text-align:left">
+                            <h4>
+                                <b>
+                                    Md- Cheese Pizza
+                                </b>
+                            </h4>
+                        </td>
+                        <td style="width:20%">
+                            <b>
+                                $.13.99
+                            </b>
+
+                        </td>
+
                     </tr>
                     <tr>
-                        <td style="text-align:left; padding-left:10px">tap paper</td>
-                        <td>$.333</td>
+                        <td style="text-align:left; padding-left:10px">garlic</td>
+                        <td>$ 0.00</td>
                     </tr>
                     <tr>
-                        <td style="text-align:left; padding-left:10px">tap paper</td>
-                        <td>$.333</td>
+                        <td style="text-align:left; padding-left:10px">pineaple</td>
+                        <td>$ 0.99</td>
                     </tr>
                     <tr>
-                        <td style="text-align:left; padding-left:10px">tap paper</td>
-                        <td>$.333</td>
+                        <td style="text-align:left; padding-left:0px">
+                            <h4>
+                                <b>
+                                    delevery
+                                </b>
+                            </h4>
+                        </td>
+                        <td>
+                            <b>
+                                $ 8.00
+
+                            </b>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td style="text-align:left; padding-left:10px">
+                        <td style="text-align:left; padding-left:0px">
                             <h4>
                                 <b>
                                     Total
@@ -91,7 +121,8 @@
                         </td>
                         <td>
                             <b>
-                                $.333
+                                $46.59
+
                             </b>
                         </td>
                     </tr>
@@ -100,16 +131,16 @@
                             Absedersfs V TEsmes <br />
                             0000   *****5555<br />
                             VISA
-                            
+
                         </td>
                         <td>
                             $5555
                         </td>
                     </tr>
                 </tbody>
-                
+
                 <tfoot>
-                    
+
 
                     <tr>
                         <td style="width:80%; text-align:left">
@@ -117,7 +148,7 @@
                                 <b>
                                     delever to
                                 </b>
-                              
+
                             </h5>
                             <p>
                                 44ttt peahtree rod
@@ -134,13 +165,13 @@
                                 Custmer Copy
                             </h3>
                         </td>
-                        
+
                     </tr>
                 </tfoot>
-                
+
             </table>
-            
-           
+
+
 
 
 
@@ -149,14 +180,13 @@
 
 
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <form id="formCheck" method="post" style="margin-top:25%;">
+   
 
-
-
-            <input type="submit" value="print to percide" class="submit" style="width:59%" /> <br /> <br />
-
-
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align:center; top:80px;  vertical-align:central">
+        <form id="formCheck" method="post" style="margin-top:20%;">
+            <input type="submit" asp-page="/Recept" value="Click to Print the Receipt" class="submit" style="width:59%" /> <br /> <br />
+           
+            @*<input type="submit" asp-page="/NewPayment" value="go back" class="submit" style="width:59%" /> <br /> <br />*@
 
         </form>
     </div>
@@ -179,16 +209,16 @@
         border: 1px solid lightgray;
         margin-top: 150px;
         background-color: white;
-        border: 1px solid lightgray;
+        /*border: 1px solid lightgray;
         -moz-box-shadow: 2px 2px 2px 2px darkblue;
         -webkit-box-shadow: 2px 2px 2px 2px darkblue;
-        box-shadow: 0px 0px 10px 0px gray;
+        box-shadow: 0px 0px 10px 0px gray;*/
     }
 
     header {
         height: 60px;
         border-bottom: 1px solid lightgray;
-        background-color: #febc11;
+        /*background-color: #febc11;*/
         font-weight: bold;
     }
 
@@ -255,6 +285,9 @@
 
     tbody {
         text-align: left;
+    }
+    h3, h5{
+        text-transform:capitalize;
     }
 </style>
 

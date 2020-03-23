@@ -15,9 +15,9 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
         <h4>
-            Search transactions by id
+            Search transactions by phone number
         </h4>
-        <input type="text" name="ContactName" value="" placeholder="type customer phone number..." style="width:80%" />
+        <input type="text" name="ContactName" value="" placeholder="(555) 55 5555" style="width:80%" />
         <input type="submit" value="search" class="submit" style="width:19%" />
         <hr />
         <table style="width:100%; text-align:center">
@@ -30,11 +30,15 @@
                         </h4>
                     </td>
                     <td>
-                        <h4>CustomerPhoneNumber</h4>
+                        <h4>Name</h4>
                     </td>
                     <td>
-                        <h4>Customer</h4>
+                        <h4>address</h4>
                     </td>
+                    <td>
+                        <h4>Phone number</h4>
+                    </td>
+
                     <td>
                         <h4>Date</h4>
                     </td>
@@ -48,11 +52,29 @@
                 {
                 <tr style="height:50px; border-bottom:1px solid lightgray; font-weight:normal">
 
-                    <td> @r.TransactionID</td>
-                    <td>@r.CustomerPhoneNumber</td>
-                    <td>@r.Customer.Name</td>
-                    <td>@r.Date</td>
-                    <td>@r.PaymentType</td>
+                    <td> <h5>
+    @r.TransactionID
+</h5></td>
+                    <td> <h5>
+    @r.Customer.Name
+</h5></td>
+                    <td>
+                        <h5>  @r.Customer.Address</h5>
+                  </td>
+                    <td>
+                        <h5>
+                            @r.CustomerPhoneNumber
+                        </h5>
+                    </td>
+
+                    <td>
+                        <h5> @r.Date</h5>
+                       
+                    </td>
+                    <td>
+                        <h5> @r.PaymentType</h5>
+                       
+                    </td>
 
 
                 </tr>
@@ -82,9 +104,9 @@
         border: 1px solid lightgray;
         margin-top: 150px;
         background-color: white;
-        -moz-box-shadow: 2px 2px 2px 2px darkblue;
+        /*-moz-box-shadow: 2px 2px 2px 2px darkblue;
         -webkit-box-shadow: 2px 2px 2px 2px darkblue;
-        box-shadow: 0px 0px 10px 0px gray;
+        box-shadow: 0px 0px 10px 0px gray;*/
     }
 
     header {
@@ -145,6 +167,13 @@
 
     h4 {
         text-transform: uppercase;
+    }
+    td{
+        text-align:left;
+    }
+    h5{
+        text-transform:capitalize;
+        font-weight:bold;
     }
 </style>
 

@@ -24,10 +24,12 @@ namespace ksupizzawebapp.Pages
                     CustomerPhoneNumber = "555 5555 555",
                      Customer = new customer()
                     {
-                        Name = "teddy"
+                        Name = "teddy",
+                        Address = "1010 Buford HWY NE"
+                        
                     },
                     Date = DateTime.Now,
-                    PaymentType= PaymentType.Cash
+                    PaymentType= PaymentType.MasterCard
                 },
                 new Transaction()
                 {
@@ -35,10 +37,11 @@ namespace ksupizzawebapp.Pages
                     CustomerPhoneNumber = "888 5555 555",
                      Customer = new customer()
                     {
-                        Name = "selemon"
+                        Name = "selemon",
+                         Address = "2010 Peachtree NE"
                     },
                     Date = DateTime.Now,
-                    PaymentType= PaymentType.Cash
+                    PaymentType= PaymentType.VisaCard
                 },
                 new Transaction()
                 {
@@ -46,7 +49,8 @@ namespace ksupizzawebapp.Pages
                     CustomerPhoneNumber = "999 5555 555",
                      Customer = new customer()
                     {
-                        Name = "hana"
+                        Name = "hana",
+                         Address = "1010 Buford HWY NE"
                     },
                     Date = DateTime.Now,
                     PaymentType= PaymentType.Check
@@ -57,10 +61,11 @@ namespace ksupizzawebapp.Pages
                     CustomerPhoneNumber = "888 5555 555",
                      Customer = new customer()
                     {
-                        Name = "selemon"
+                        Name = "selemon",
+                         Address = "3434 Stone Mountain SE"
                     },
                     Date = DateTime.Now,
-                    PaymentType= PaymentType.Cash
+                    PaymentType= PaymentType.MasterCard
                 },
                 new Transaction()
                 {
@@ -68,7 +73,8 @@ namespace ksupizzawebapp.Pages
                     CustomerPhoneNumber = "999 5555 555",
                      Customer = new customer()
                     {
-                        Name = "hana"
+                        Name = "hana",
+                         Address = "4510 Clark RD NW"
                     },
                     Date = DateTime.Now,
                     PaymentType= PaymentType.Check

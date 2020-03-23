@@ -14,7 +14,6 @@ C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\ksupizzawebapp.TagHelpers.input.cache
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\ksupizzawebapp.TagHelpers.output.cache
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\ksupizzawebapp.RazorCoreGenerate.cache
-C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
@@ -38,4 +37,6 @@ C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\customerecord.g.cshtml.cs
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\transactions.g.cshtml.cs
 C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\menuOnline.g.cshtml.cs
-C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\Account.g.cshtml.cs
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\NewPayment.g.cshtml.cs
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\Login.g.cshtml.cs
+C:\Projects\ksupizzawebapp\ksupizzawebapp\ksupizzawebapp\obj\Debug\netcoreapp2.1\Razor\Pages\signup.g.cshtml.cs

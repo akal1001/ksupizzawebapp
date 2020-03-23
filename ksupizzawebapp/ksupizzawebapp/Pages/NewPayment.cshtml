@@ -1,5 +1,5 @@
 ﻿@page
-@model AboutModel
+@model NewPaymentModel
 @{
     ViewData["Title"] = "About";
 }
@@ -8,7 +8,7 @@
 
     <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h3>
-            payment set up page
+            setup your payment 
         </h3>
     </header>
 
@@ -36,27 +36,33 @@
                 </tr>
             </table>
 
-           
+
             <img src="https://www.bing.com/th/id/OIP.-fRzc79XooFc4qm_bcdEzgHaCX?w=299&h=96&c=7&o=5&pid=1.7" /><br />
-         
+
 
             <input type="submit" value="add" class="submit" />
             <input type="submit" value="clear" class="submit" />
         </form>
-     
+
 
     </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top:25%;">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align:center; top:80px;  vertical-align:central">
+        <form id="formCheck" method="post" style="margin-top:20%;">
+            <input type="submit" asp-page="/PaymentConfermation" value="Continue" class="submit" style="width:59%" /> <br /> <br />
+            <input type="submit" asp-page="/PaymentConfermation" value="Back" class="submit" style="width:59%" /> <br /> <br />
+
+        </form>
+    </div>
+    @*<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding-top:25%;">
             <form method="post">
 
-               
 
-              
+
+
                 <input type="submit" value="continue" style="width:80%" class="submit" />
             </form>
 
-        </div>
-      
+        </div>*@
 
 
 
@@ -64,7 +70,8 @@
 
 
 
-    </div>
+
+</div>
 
 <style>
     .row {
@@ -75,16 +82,16 @@
         border: 1px solid lightgray;
         margin-top: 150px;
         background-color: white;
-        border: 1px solid lightgray;
+        /*border: 1px solid lightgray;
         -moz-box-shadow: 2px 2px 2px 2px darkblue;
         -webkit-box-shadow: 2px 2px 2px 2px darkblue;
-        box-shadow: 0px 0px 10px 0px gray;
+        box-shadow: 0px 0px 10px 0px gray;*/
     }
 
     header {
         height: 60px;
         border-bottom: 1px solid lightgray;
-        background-color: #febc11;
+        /*background-color: #febc11;*/
         font-weight: bold;
     }
 

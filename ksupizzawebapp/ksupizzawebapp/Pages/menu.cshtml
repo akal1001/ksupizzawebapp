@@ -16,11 +16,11 @@
     {
 
 
-        <div id="menu" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="background-color:black; overflow:">
+        <div id="menu" class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="">
 
             <fieldset>
 
-                <div style="height:180px; width:100%; border:1px solid red;">
+                <div style="height:180px; width:100%;">
 
 
                     <img src="@Url.Content(r.ImageReferaceId)" />
@@ -31,9 +31,10 @@
                 <div>
                     <label for="">Pizza Name:</label>
                 </div>
-                @*<div>
-                        <label for="" style="color:white">$5.99:</label>
-                    </div>*@
+                <div>
+                    <label for="" style="">$5.99:</label> <br />
+                    <input type="button" value="order now" class="submit" />
+                </div>
 
             </fieldset>
 
@@ -43,10 +44,11 @@
 
 
     }
-     <div>
+    <div>
+        <input type="submit" asp-page="/Account" value="Start order" class="submit" style="width:59%" />
 
-            <input type="button" class="submit" value="place order" />
-        </div>
+        @*<input type="button" class="submit" value="place order" />*@
+    </div>
 
     <hr />
 </div>
@@ -60,12 +62,12 @@
         width: 100%;
         margin-top: 100px;
         border: 1px solid lightgray;
-       
-        -moz-box-shadow: 2px 2px 2px 2px darkblue;
+        /*-moz-box-shadow: 2px 2px 2px 2px darkblue;
         -webkit-box-shadow: 2px 2px 2px 2px darkblue;
-        box-shadow: 0px 0px 10px 0px gray;
+        box-shadow: 0px 0px 10px 0px gray;*/
         /*background-color:black;*/
     }
+
     form div {
         text-align: center;
     }
@@ -74,6 +76,7 @@
         padding: 0%;
         height: 650px;
     }
+
     header {
         background-color: #febc11;
         font-weight: bold;
@@ -82,7 +85,7 @@
     #menu {
         margin: 0%;
         padding: 1%;
-        height:300px;
+        height: 300px;
     }
 
     form {
@@ -93,18 +96,20 @@
         width: 99%;
         height: auto;
     }
+
     .submit {
         background-color: black;
-        border-radius:2%;
-        border:1px solid gray;
+        border-radius: 2%;
+        border: 1px solid gray;
         color: #febc11;
         font-weight: bold;
-        height:40px;
+        height: 40px;
         width: 50%;
         margin: 0%;
         display: inline;
     }
-    .submit:active {
-        background-color: darkslategray;
-    }
+
+        .submit:active {
+            background-color: darkslategray;
+        }
 </style>

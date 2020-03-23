@@ -10,13 +10,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="Pages\Login.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Pages\customerecord.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Pages\menuOnline.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
-    <Content Update="Pages\Account.cshtml">
+    <Content Update="Pages\signup.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Pages\PaymentOptions.cshtml">

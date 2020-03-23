@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ksupizzawebapp.Pages
 {
-    public class AccountModel : PageModel   
+    public class SignupModel : PageModel   
     {
         public string Message { get; set; }
 
